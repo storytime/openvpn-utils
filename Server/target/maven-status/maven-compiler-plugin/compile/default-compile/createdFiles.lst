@@ -1,0 +1,10 @@
+utils/collectors/DefaultCollector.class
+utils/text/CDS.class
+rest/MainRest.class
+utils/dialect/SQLiteDialect.class
+rest/ClientDisconnectRest.class
+entity/ClientDisconnect.class
+utils/SessionFactorySingleton.class
+main/Main.class
+entity/Client.class
+utils/collectors/Collector.class

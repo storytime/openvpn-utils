@@ -1,0 +1,10 @@
+/home/pollux/Projects/VPN/Server/src/main/java/rest/ClientDisconnectRest.java
+/home/pollux/Projects/VPN/Server/src/main/java/utils/collectors/DefaultCollector.java
+/home/pollux/Projects/VPN/Server/src/main/java/utils/dialect/SQLiteDialect.java
+/home/pollux/Projects/VPN/Server/src/main/java/utils/SessionFactorySingleton.java
+/home/pollux/Projects/VPN/Server/src/main/java/main/Main.java
+/home/pollux/Projects/VPN/Server/src/main/java/utils/text/CDS.java
+/home/pollux/Projects/VPN/Server/src/main/java/entity/Client.java
+/home/pollux/Projects/VPN/Server/src/main/java/entity/ClientDisconnect.java
+/home/pollux/Projects/VPN/Server/src/main/java/utils/collectors/Collector.java
+/home/pollux/Projects/VPN/Server/src/main/java/rest/MainRest.java
