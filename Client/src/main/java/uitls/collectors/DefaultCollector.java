@@ -1,16 +1,17 @@
-package utils.collectors;
+package uitls.collectors;
 
-import entity.ClientDisconnect;
-import utils.text.CDS;
+import entity.ClientDisconnectEntity;
+import uitls.text.CDS;
 
 /**
  * User: Bogdan
  */
 public class DefaultCollector implements Collector {
-    private static ClientDisconnect clientDisconnect = new ClientDisconnect();
+    private ClientDisconnectEntity clientDisconnect;
 
     @Override
-    public ClientDisconnect clientDisconnect() {
+    public ClientDisconnectEntity clientDisconnect() {
+        clientDisconnect = new ClientDisconnectEntity();
         clientDisconnect.setCommonName(System.getenv(CDS.COMMON_NAME));
         clientDisconnect.setBytesReceived(System.getenv(CDS.BYTES_RECEIVED));
         clientDisconnect.setBytesSent(System.getenv(CDS.BYTES_SENT));

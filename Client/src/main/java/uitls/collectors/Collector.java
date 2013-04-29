@@ -1,4 +1,4 @@
-package utils.collectors;
+package uitls.collectors;
 
 import entity.Client;
 

@@ -1,8 +1,9 @@
 package entity;
+
 /**
  * User: Bogdan
  */
-public class ClientDisconnect implements Client {
+public class ClientDisconnectEntity implements Client {
     protected Integer id;
 
     private String commonName;
@@ -57,7 +58,7 @@ public class ClientDisconnect implements Client {
         this.id = id;
     }
 
-    public  String getCommonName() {
+    public String getCommonName() {
         return commonName;
     }
 
@@ -74,37 +75,37 @@ public class ClientDisconnect implements Client {
     }
 
 
-    public  String getBytesSent() {
+    public String getBytesSent() {
         return bytesSent;
     }
 
-    public  void setBytesSent(String bytesSent) {
+    public void setBytesSent(String bytesSent) {
         this.bytesSent = bytesSent;
     }
 
 
-    public  String getSessionTime() {
+    public String getSessionTime() {
         return sessionTime;
     }
 
-    public  void setSessionTime(String sessionTime) {
+    public void setSessionTime(String sessionTime) {
         this.sessionTime = sessionTime;
     }
 
 
-    public  String getTrustedIp() {
+    public String getTrustedIp() {
         return trustedIp;
     }
 
-    public  void setTrustedIp(String trustedIp) {
+    public void setTrustedIp(String trustedIp) {
         this.trustedIp = trustedIp;
     }
 
-    public  String getTrustedPort() {
+    public String getTrustedPort() {
         return trustedPort;
     }
 
-    public  void setTrustedPort(String trustedPort) {
+    public void setTrustedPort(String trustedPort) {
         this.trustedPort = trustedPort;
     }
 
@@ -116,7 +117,7 @@ public class ClientDisconnect implements Client {
         this.ifconfigPoolLocalIp = ifconfigPoolLocalIp;
     }
 
-    public  String getIfconfigPoolRemoteIp() {
+    public String getIfconfigPoolRemoteIp() {
         return ifconfigPoolRemoteIp;
     }
 
@@ -148,15 +149,15 @@ public class ClientDisconnect implements Client {
         this.daemonLogRedirect = daemonLogRedirect;
     }
 
-    public  String getDev() {
+    public String getDev() {
         return dev;
     }
 
-    public  void setDev(String dev) {
+    public void setDev(String dev) {
         this.dev = dev;
     }
 
-    public  String getIfconfigLocal() {
+    public String getIfconfigLocal() {
         return ifconfigLocal;
     }
 
@@ -164,7 +165,7 @@ public class ClientDisconnect implements Client {
         this.ifconfigLocal = ifconfigLocal;
     }
 
-    public  String getIfconfigRemote() {
+    public String getIfconfigRemote() {
         return ifconfigRemote;
     }
 
@@ -176,7 +177,7 @@ public class ClientDisconnect implements Client {
         return linkMtu;
     }
 
-    public  void setLinkMtu(String linkMtu) {
+    public void setLinkMtu(String linkMtu) {
         this.linkMtu = linkMtu;
     }
 
@@ -196,19 +197,19 @@ public class ClientDisconnect implements Client {
         this.routeVpnGateway = routeVpnGateway;
     }
 
-    public  String getTunMtu() {
+    public String getTunMtu() {
         return tunMtu;
     }
 
-    public  void setTunMtu(String tunMtu) {
+    public void setTunMtu(String tunMtu) {
         this.tunMtu = tunMtu;
     }
 
-    public  String getUntrustedIp() {
+    public String getUntrustedIp() {
         return untrustedIp;
     }
 
-    public  void setUntrustedIp(String untrustedIp) {
+    public void setUntrustedIp(String untrustedIp) {
         this.untrustedIp = untrustedIp;
     }
 
