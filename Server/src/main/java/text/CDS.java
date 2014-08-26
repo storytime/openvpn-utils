@@ -1,4 +1,4 @@
-package utils.text;
+package text;
 
 /**
  * User: Bogdan

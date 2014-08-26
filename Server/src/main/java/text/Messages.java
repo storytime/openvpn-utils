@@ -1,4 +1,4 @@
-package utils.text;
+package text;
 
 /**
  * User: Bogdan
@@ -9,4 +9,8 @@ public interface Messages {
     final static String SUCCESSFULLY_SAVED = "Successfully saved";
     final static String SUCCESSFULLY_RECEIVED = "Successfully received";
     final static String STARTING_GRIZZLY = "Starting grizzly server: ";
+
+    final static String WORKING_API = "API is working";
+
+
 }

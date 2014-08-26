@@ -1,4 +1,4 @@
-package utils.text;
+package text;
 
 /**
  * User: Bogdan
@@ -7,6 +7,7 @@ package utils.text;
  */
 public interface Props {
     public final static String BASE_URL = "http://localhost/";
+    public final static Integer SERVER_PORT = 11111;
     public final static String JERSEY_TEST_PORT = "jersey.text.port";
 
     public final static String JERSEY_PROP_PACKAGE = "com.sun.jersey.config.property.packages";
